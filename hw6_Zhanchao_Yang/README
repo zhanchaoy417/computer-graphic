@@ -1,0 +1,27 @@
+Hw6: Textures and Lighting
+
+Zhanchao Yang
+CSCI4229 Fall 2022
+
+To compile files, do "make",to open it,do "./hw6"
+"
+Note that lighting part from hw5, not much change, Texture image from ex14/ex15, using five of these pictures (water, block, crate, image 3/6), write my comment with understanding why use these gl functions. Operation, key function is modify from ex15/hw5, change most value and remove some useless key.
+
+Time to complete: 4 hours
+
+Key bindings
+  l          Toggle lighting on/off
+  t          Change textures(have 2 different combinations texture)
+  p          Toggles texture mode modulate/replace
+  m          light movement
+  a/A        decrease/increase ambient light
+  d/D        decrease/increase diffuse light
+  s/S        decrease/increase specular light
+  e/E        decrease/increase emitted light
+  n/N        Decrease/increase shininess
+  u/U        Lower/rise light
+  x          Toggle axes
+arrows(Up,down,left,right)     Change view angle
+  PgDn/PgUp  Zoom in and out
+  0          Reset view angle
+  ESC        Exit
