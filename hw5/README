@@ -1,0 +1,30 @@
+Hw5: Lighting
+
+Zhanchao Yang
+CSCI4229
+
+To compile files, do "make".
+
+Note that light ball and light switch function modified from ex13, not much change, but write my comment with understanding why use these gl functions. Operation, key function is similar with ex13, change most value and remove some useless key.
+
+Time to complete : 4 hours
+
+
+Key bindings
+  l          Toggles lighting, light on/off
+  a/A        Decrease/increase ambient light
+  d/D        Decrease/increase diffuse light
+  s/S        Decrease/increase specular light
+  e/E        Decrease/increase emitted light
+  n/N        Decrease/increase shininess
+ m/M         Toggles light movement,stop the light
+u/U         Lower/rise light
+  p         Toggles ortogonal/perspective projection
+  +/-        Change field of view of perspective (ie fov)
+  x          Toggle axes
+  X          Toggle smooth/flat shading
+  f         Invert bottom normal
+ arrows key     Change view angle(ie zh,ph)
+  PgDn/PgUp  Zoom in and out
+  0          Reset view angle
+  ESC        Exit
