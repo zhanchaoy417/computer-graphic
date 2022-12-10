@@ -1,0 +1,25 @@
+Hw4: Projection
+Zhanchao Yang
+
+CSCI4229 Fall 2022
+
+Time to complete the assignment: 3 hours
+
+Note that my print function is modified from ex9 print function, my projection add the first perspective, if first perspective(third mode) show black, press 'd' to default.
+
+
+General Keys
+  m          Toggle between perspective and orthogonal
+  a          Toggle axes
+  d         Default view angle(ie th,ph)
+  ESC        Exit 
+
+Special keys in each mode:
+
+In perspective/orthgonal Mode:
+  +/-                         Changes field of view for perspective(ie, for value)
+ PgDn/PgUp                     Zoom in and out
+arrows(up,down,right,left)     Change view angle
+
+In first perspective Mode:
+arrows(up,down,right,left)      moving forward/backward/right/left
