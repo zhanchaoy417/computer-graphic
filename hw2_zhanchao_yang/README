@@ -1,0 +1,19 @@
+The makefile will build the gears program for Linux, OSX or Windows.
+
+On Windows the -DUSEGLEW compiler flag invokes GLEW which is required to get
+OpenGL 2 features needed by this program.
+
+On OSX the -DRES=2 compiler flag adjusts the resolution of the glViewport() for
+retina displays.  If you see only part of the scene, it may be necessary to
+change this to -DRES=1.
+
+Compile - "make Lorenz Attractor.c " or use "make"
+
+Key:
+Left,right arrow key - Modify Elevation angle
+Up, down arrow key - Modify Azimuth angle
+R/r - decrease/increase value r by 1
+S/s - decrease/increase value s by 1
+B/b - decrease/increase value b by 0.1
+"d" + 'up'(lowercase d + up arrow key) - default all s, r, b values
+'27" - escape
